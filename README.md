@@ -1,5 +1,7 @@
 ## COVID-19 Quizapp
 
+[Try it](https://gracebodur.github.io/covid-19-quizapp/)
+
 A short quiz to test your knowledge about the infectious disease Coronavirus (COVID-19).
 
 ![Desktop](img/desktop.png)
