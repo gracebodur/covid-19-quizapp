@@ -6,7 +6,7 @@ function updateScore(score) {
 
 function generateStartHTML() {
   return `
-  <div class="container">
+  <div class="intro-container">
   <p>Think you know eveything there is to know about the Coronavirus-19? </p>
   
   <p>Test your knowledge with this quiz!</p> 
