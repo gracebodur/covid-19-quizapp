@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>COVID-19 Quiz</title>   
-    <meta charset="utf-8">   
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <meta name="description" content="Coronavirus Quiz App Project"> 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Spectral:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class='container'>
-    <header role="banner">
-      <h1>COVID-19 Quizapp</h1>
-      SCORE: <span id="score"> 0</span>
+
+<head>
+  <title>COVID-19 Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coronavirus Quiz App Project">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class='container-fluid bg'>
+    <header role="banner" class='q-header'>
+      <div class='q-title' id='title'>
+        <h1 class='q-text'>COVID Quizapp</h1>
+      </div>
+      <div class='q-subheader'>
+        <h2 class='q-text'>SCORE: <span id="score" class='q-score'> 0</span></h2>
+      </div>
     </header>
+
     <main aria-live="assertive">
       <section>
       </section>
     </main>
-      <p class='text-center'>The material on this site is for educational purposes only, </br>
-        and is not a substitute for medical advice, diagnosis or </br>
-        treatment provided by a qualified health care provider.</p>
+
+    <footer class='q-footer'>
+      <div>
+        <h4>Key things to know about the virus</h4>
+      </div>
+      <div>
+        <h4>Defeating Covid-19</h4>
+      </div>
+    </footer>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
-    <script src="store.js"></script>
-    <script src="index.js"></script>
-  </body>
+  <script src="store.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
-
-
