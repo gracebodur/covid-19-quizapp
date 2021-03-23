@@ -46,7 +46,4 @@ A short quiz to test your knowledge about the infectious disease Coronavirus (CO
 - think about the user experiences outlined above and how your design must make them possible.
 - design your app using HTML wireframes, which are HTML- (and minimal CSS-) only versions of the different screens in your app.
 
-#### Credits
-
-<span>Photo by <a href="https://unsplash.com/@cdc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CDC</a> on <a href="https://unsplash.com/s/photos/coronavirus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
