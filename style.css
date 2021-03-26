@@ -223,6 +223,10 @@ input {
   white-space: nowrap;
 }
 
+ol {
+  list-style-type: none;
+}
+
 .feedback-container {
   position: absolute;
   width: 40%;
